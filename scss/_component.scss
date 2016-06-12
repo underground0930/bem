@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+/* ====================================================
+component style
+==================================================== */
+
+
+.wrap{
+  width: 600px;
+  margin: 40px auto;
+}
+
+.main-title{
+  @include fs(20);
+  margin: 0 0 20px 0;
+}
+
+.mod-section{
+  margin: 0 0 40px 0;
+}
+
+.mod-section__title{
+  @include fs(16);
+  margin: 0 0 20px 0;
+  font-weight: bold;
+}
+
+/* ------------------------
+alert
+------------------------ */
+
+.alert{
+  border: 2px solid #333;
+  border-radius: 6px;
+  padding: 10px;
+  background-color: #fff;
+  font-weight: bold;
+  @include fs(14);
+  color: #000;
+  margin: 0 0 20px 0;
+
+  // 成功
+  #{&}--state_success{
+    border-color: #494;
+    background-color: rgba(68,153,68,0.3);
+  }
+
+  // 危険
+  #{&}--state_warning{
+    border-color: #DD0;
+    background-color: rgba(221,221,0,0.3);
+  }
+
+  // 失敗
+  #{&}--state_error{
+    border-color: #C44;
+    background-color: rgba(204,68,68,0.3);
+  }
+
+  // お知らせ
+  #{&}--state_info{
+    border-color: #48C;
+    background-color: rgba(68,136,153,0.3);
+  }
+
+}
+
+
+/* ------------------------
+box
+------------------------ */
+
+// 写真右
+.box{
+  margin: 0 0 30px 0;
+  
+  #{&}__text{
+    @include fs(14);
+    margin: 0 0 0 130px;
+  }
+  #{&}__pic{
+    width:100px;
+    height: 100px;
+    background: #000;
+    float: left;
+    font-size:16px;
+    text-align: center;
+    line-height:100px;
+    color: #fff;
+  }
+
+   // 写真左
+  #{&}__text--pos_reverse{
+    margin: 0 130px 0 0;
+  }
+  #{&}__pic--pos_reverse{
+    float: right;
+  }
+
+  // 中央寄せ
+  #{&}__text--pos_center{
+    margin: 0 0 0 0;
+  }
+  #{&}__pic--pos_center{
+    float: none;
+    margin: 0 auto 30px;
+  }
+}
+
+/* -----------------------
+ttl
+------------------------ */
+.ttl{
+  border-left:2px solid #f00;
+  border-top:1px solid #ccc;
+  overflow: hidden;
+  padding:7px;
+    #{&}__text {
+      @include fs(16);
+      font-weight:bold;
+      display:inline-block;
+      float: left;
+     }
+    #{&}__btn {
+      @include fs(14);
+      display:inline-block;
+      float:right;
+      padding: 4px;
+      border:2px solid #444;
+      background: #ccc;
+    }
+}
+
+/* -----------------------
+column
+------------------------ */
+
+.column{
+  border:1px solid #555;
+  border-radius:4px;
+  padding:7px;
+  #{&}__title{
+    @include fs(15);
+    font-weight:bold;
+    padding: 0 0 10px 0;
+    margin: 0 0 10px 0;
+    border-bottom: 1px solid #bbb;
+  }
+  #{&}__body{
+    @include fs(13);
+  }
+
+  #{&}__p{
+    margin: 0 0 5px 0;
+  }
+
+}
+

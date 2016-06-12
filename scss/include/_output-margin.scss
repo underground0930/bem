@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+// @mixin output-margin
+// @description マージン調整用classの生成
+// spacing.scssよりもあとに読み込む必要があります
+
+@mixin output-margin {
+
+	// margin-top
+	@for $i from 0 through 50 {
+		@include spacing(margin, top, $i);
+	}
+
+	// margin-bottom
+	@for $i from 0 through 50 {
+		@include spacing(margin, bottom, $i);
+	}
+
+	// Negative margin-top
+	@for $i from 1 through 50 {
+		@include spacing(margin, top, -$i);
+	}
+
+	// Negative margin-bottom
+	@for $i from 1 through 50 {
+		@include spacing(margin, bottom, -$i);
+	}
+}

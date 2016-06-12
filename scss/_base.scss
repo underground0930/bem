@@ -1,0 +1,237 @@
+@charset "utf-8";
+
+/* ====================================================
+base style
+==================================================== */
+
+html { font-size: 62.5%; }
+
+body {
+  color: #000000;
+  font-size: 100%;
+  font-size: 10px;
+  font-size: 1.0rem;
+  background-color: #FFFFFF;
+  line-height: 1.4;
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+/*  font-family: sans-serif; */
+/*  font-family: arial, sans-serif; */
+/*  font-family: 'ＭＳ Ｐゴシック', 'ヒラギノ角ゴ Pro W3', Arial, Helvetica;  */
+/*  font-family: Verdana, Arial, Helvetica, sans-serif; */
+/*  font-family: Meiryo, Tahoma, Verdana, Arial, sans-serif; */
+/*  font-family: Arial, Verdana, 'Helvetica Neue', Helvetica, sans-serif; */
+/*  font-family: Osaka, Arial, Helvetica, sans-serif; */
+/*  font-family: 'MS PGothic', Osaka, Arial, sans-serif; */
+}
+
+a:link {
+  color: #000000;
+  text-decoration: none;
+}
+a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+a:active {
+  color: #000000;
+  text-decoration: underline;
+}
+
+/* 通常時のclearfix
+-------------------------- */
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/* 上記で不都合が通じる場合のclearfix
+-------------------------- */
+.clearfix2 {
+  overflow: hidden;
+}
+
+/* イレギュラーな場合のみ使うCSS(※基本的には使用しないこと)
+-------------------------- */
+
+
+/* margin
+--------------
+ */
+
+/* top */
+.mt00 {
+  margin-top: 0 !important;
+}
+.mt05 {
+  margin-top: 5px !important;
+}
+.mt10 {
+  margin-top: 10px !important;
+}
+.mt15 {
+  margin-top: 15px !important;
+}
+.mt20 {
+  margin-top: 20px !important;
+}
+.mt25 {
+  margin-top: 25px !important;
+}
+.mt30 {
+  margin-top: 30px !important;
+}
+.mt35 {
+  margin-top: 35px !important;
+}
+.mt40 {
+  margin-top: 40px !important;
+}
+.mt45 {
+  margin-top: 45px !important;
+}
+.mt50 {
+  margin-top: 50px !important;
+}
+
+/* bottom */
+.mb00 {
+  margin-bottom: 0 !important;
+}
+.mb05 {
+  margin-bottom: 5px !important;
+}
+.mb10 {
+  margin-bottom: 10px !important;
+}
+.mb15 {
+  margin-bottom: 15px !important;
+}
+.mb20 {
+  margin-bottom: 20px !important;
+}
+.mb25 {
+  margin-bottom: 25px !important;
+}
+.mb30 {
+  margin-bottom: 30px !important;
+}
+.mb35 {
+  margin-bottom: 35px !important;
+}
+.mb40 {
+  margin-bottom: 40px !important;
+}
+.mb45 {
+  margin-bottom: 45px !important;
+}
+.mb50 {
+  margin-bottom: 50px !important;
+}
+
+/* left */
+.ml0 {
+  margin-left: 0px !important;
+}
+.ml10 {
+  margin-left: 10px !important;
+}
+.ml20 {
+  margin-left: 20px !important;
+}
+.ml30 {
+  margin-left: 30px !important;
+}
+
+/* right */
+.mr10 {
+  margin-right: 10px !important;
+}
+.mr10 {
+  margin-right: 10px !important;
+}
+.mr20 {
+  margin-right: 20px !important;
+}
+.mr30 {
+  margin-right: 30px !important;
+}
+
+/* padding
+--------------
+ */
+
+/* top */
+.pt00 {
+  padding-top: 0 !important;
+}
+.pt05 {
+  padding-top: 5px !important;
+}
+.pt10 {
+  padding-top: 10px !important;
+}
+.pt15 {
+  padding-top: 15px !important;
+}
+.pt20 {
+  padding-top: 20px !important;
+}
+.pt25 {
+  padding-top: 25px !important;
+}
+.pt30 {
+  padding-top: 30px !important;
+}
+.pt35 {
+  padding-top: 35px !important;
+}
+.pt40 {
+  padding-top: 40px !important;
+}
+.pt45 {
+  padding-top: 45px !important;
+}
+.pt50 {
+  padding-top: 50px !important;
+}
+
+/* bottom */
+.pb00 {
+  padding-bottom: 0 !important;
+}
+.pb05 {
+  padding-bottom: 5px !important;
+}
+.pb10 {
+  padding-bottom: 10px !important;
+}
+.pb15 {
+  padding-bottom: 15px !important;
+}
+.pb20 {
+  padding-bottom: 20px !important;
+}
+.pb25 {
+  padding-bottom: 25px !important;
+}
+.pb30 {
+  padding-bottom: 30px !important;
+}
+.pb35 {
+  padding-bottom: 35px !important;
+}
+.pb40 {
+  padding-bottom: 40px !important;
+}
+.pb45 {
+  padding-bottom: 45px !important;
+}
+.pb50 {
+  padding-bottom: 50px !important;
+}
+

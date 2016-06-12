@@ -1,0 +1,28 @@
+{
+  "name": "scss",
+  "version": "1.0.0",
+  "description": "## _reset.scss htmlに元々効いているデフォルトのスタイルを解除するCSS。 html5doctorを元にしていて、以下の部分を追加してある。 複数人数で作業する場合があるので、一番クセのない形にしてある。 ほとんどのデフォルトのスタイルは切ってある。",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/underground0930/scss.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/underground0930/scss/issues"
+  },
+  "homepage": "https://github.com/underground0930/scss#readme",
+  "devDependencies": {
+    "browser-sync": "^2.12.12",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.3.1",
+    "install": "^0.8.1",
+    "npm": "^3.9.5"
+  }
+}

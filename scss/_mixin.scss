@@ -1,0 +1,8 @@
+
+/* ------------------------
+font-size
+------------------------ */
+@mixin fs($size) {
+	font-size: $size + px;
+	font-size: $size / 10 + rem;
+}
