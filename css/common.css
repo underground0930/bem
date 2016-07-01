@@ -445,3 +445,14 @@ column
     font-size: 1.3rem; }
   .column__p {
     margin: 0 0 5px 0; }
+
+.main-box {
+  width: 700px;
+  margin: 100px auto; }
+
+/* ====================================================
+// module1
+==================================================== */
+.mod1__pic {
+  width: 150px;
+  height: 150px; }

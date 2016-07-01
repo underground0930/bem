@@ -1,68 +1,51 @@
 <!DOCTYPE html>
-<html lang="ja">
-<head>
-	<meta charset="UTF-8">
-	<title>BEM</title>
-	<link rel="stylesheet" href="css/common.css">
-</head>
-<body>
-	<div class="wrap">
-		<h1 class="main-title">BEM</h1>
-		<!-- alert -->
-		<section class="mod-section">
-			<h2 class="mod-section__title">module1</h2>
-			<div class="alert alert--state_success">成功</div>
-			<div class="alert alert--state_warning">危険</div>
-			<div class="alert alert--state_error">失敗</div>
-			<div class="alert alert--state_info">お知らせ</div>
-		</section>
-		<!-- box -->
-		<section class="mod-section">
-			<h2 class="mod-section__title">module2</h2>
-			<div class="box clearfix">
-				<div class="box__pic">PIC</div>
-				<div class="box__text">
-					ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。
-				</div>
-			</div>
-			<div class="box clearfix">
-				<div class="box__pic box__pic--pos_reverse">PIC</div>
-				<div class="box__text box__text--pos_reverse">
-					ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。
-				</div>
-			</div>
-			<div class="box">
-				<div class="box__pic box__pic--pos_center">PIC</div>
-				<div class="box__text box__text--pos_center">
-					ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。
-				</div>
-			</div>
-		</section>
-		<!-- ttl -->
-		<section class="mod-section">
-			<h2 class="mod-section__title">module3</h2>
-			<div class="ttl">
-				<h3 class="ttl__text">成功</h3>
-				<a href="#" class="ttl__btn">ボタン</a>
-			</div>
-		</section>
-		<!-- column -->
-		<section class="mod-section">
-			<h2 class="mod-section__title">module4</h2>
-			<div class="column">
-				<h1 class="column__title">title</h1>
-				<div class="column__body">
-					<p class="column__p">
-						paraparaprara
-					</p>
-					<p class="column__p">
-						paraparaprara
-					</p>
-				</div>
-			</div>
-		</section>
-
-	</div>
-
-</body>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ベム</title>
+    <link rel="stylesheet" href="css/common.css">
+  </head>
+  <body>
+    <div class="main-box">
+      <h1 class="main-title">BEM</h1>
+      <section class="mod-section">
+        <h1 class="mod-section__title">module1</h1>
+        <div class="alert alert--state_success">成功</div>
+        <div class="alert alert--state_warning">危険</div>
+        <div class="alert alert--state_error">失敗</div>
+        <div class="alert alert--state_info">お知らせ</div>
+      </section>
+      <section class="mod-section">
+        <h1 class="mod-section__title">module2</h1>
+        <div class="box clearfix">
+          <div class="box__pic">pic</div>
+          <div class="box__text">ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</div>
+        </div>
+        <div class="box clearfix">
+          <div class="box__pic box__pic--pos_reverse">pic</div>
+          <div class="box__text box__text--pos_reverse">ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</div>
+        </div>
+        <div class="box clearfix">
+          <div class="box__pic box__pic--pos_center">pic</div>
+          <div class="box__text box__text--pos_center">ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</div>
+        </div>
+      </section>
+      <section class="mod-section">
+        <h1 class="mod-section__title">module3</h1>
+        <div class="ttl">
+          <h2 class="ttl__text">成功</h2><a class="ttl__btn">ボタン</a>
+        </div>
+      </section>
+      <section class="mod-section">
+        <h1 class="mod-section__title">module4</h1>
+        <div class="column">
+          <h2 class="column__title">title</h2>
+          <div class="column__body">
+            <p class="column__p">paraparapapapapapapapapraprapar</p>
+            <p class="column__p">paraparapapapapapapapapraprapar</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
 </html>
