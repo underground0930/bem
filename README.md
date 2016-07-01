@@ -22,10 +22,10 @@ BlockまたはElementの状態を表すもの
     <div class="box__item">
       aaaaaaaaa
     </div>
-    <div class="box__item box__item--font-size_big">
+    <div class="box__item box__item--font-size-big">
       bbbbbbbbb
     </div>
-    <div class="box__item box__item--font-size_small">
+    <div class="box__item box__item--font-size-small">
       ccccccccc
     </div>
   </div>
@@ -36,11 +36,11 @@ BlockまたはElementの状態を表すもの
 ```
 .Block{}
 
-.Block--Modifier_value{}
+.Block--Modifier-value{}
 
 .Block__Element{}
 
-.Block__Element--Modifier_value{}
+.Block__Element--Modifier-value{}
 
 .Block__Element{}__Element{} //× Elementの入れ子はしない
 
@@ -161,7 +161,7 @@ box
 // 写真右
 .box{
   margin: 0 0 30px 0;
-
+  
   #{&}__text{
     @include fs(14);
     margin: 0 0 0 130px;
@@ -249,9 +249,9 @@ column
 ### 参考
 - <a href="http://blog.ruedap.com/2013/10/29/block-element-modifier" target="_blank">BEMという命名規則とSass 3.3の新しい記法</a>
 - <a href="https://app.codegrid.net/entry/bem-2" target="_blank">知っておきたいHTMLテンプレート設計法
-第5回 BEMを用いた設計 1</a>
+第5回 BEMを用いた設計 1</a> 
 - <a href="https://app.codegrid.net/entry/bem-basic-2" target="_blank">BEMによるフロントエンドの設計
-第2回 実装のポイント 前編</a>
+第2回 実装のポイント 前編</a> 
 - <a href="http://tsmd.hateblo.jp/entry/2013/12/12/004059" target="_blank">実践 めんどうくさくない BEM</a>
 - <a href="https://html5experts.jp/kosei27/3297/" target="_blank">Sass 3.3で追加された「&」の新機能と@at-rootまとめ解説</a>
 - <a href="http://www.adventar.org/calendars/61" target="_blank">BEM Advent Calendar 2013</a>
